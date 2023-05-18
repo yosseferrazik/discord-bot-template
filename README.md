@@ -1,4 +1,10 @@
+# Discord Bot Template
+Una plantilla de bot de discord 
 
+# Configuración 
+## `config.js`
+Ves al archivo `./settings/config.js`
+```js
 module.exports = {
     prefix:">",// Prefix
     id:"", // ID del bot
@@ -10,3 +16,9 @@ module.exports = {
         userperms:"🚷 🡆 Necesitas permisos `<perms>` para ejecutar este comando"   
     }
 };
+```
+## `.env`
+```json
+TOKEN="" // Token del bot
+MONGO="" // URI de Mongo DB
+```
