@@ -18,7 +18,7 @@ module.exports = {
 };
 ```
 ## `.env`
-```json
+```js
 TOKEN="" // Token del bot
 MONGO="" // URI de Mongo DB
 ```
